@@ -56,7 +56,12 @@ public class App {
                 break;
 
             case 2:
-            System.out.println("Opção 2 selecionada");
+            System.out.println("Digite o tamanho do vetor: ");
+            int n = leitor.nextInt();
+            double vetor[] = new double[n];
+            for(int j = 0; j < n; j++){
+                vetor[j] = leitor.nextDouble();
+            }
                 break;
 
             case 3:
